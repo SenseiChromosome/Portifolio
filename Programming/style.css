@@ -6,6 +6,7 @@ body{
 }
 
 a{text-decoration: none;}
+a{color: #331d1d;}
 
 .mainheader{
     text-align: center;
@@ -25,14 +26,122 @@ a{text-decoration: none;}
     background-color: #e1b486;
     height: 100%;
     width: 60%;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     border: black solid 3px;
 }
 
 .navbar{
+    font-size: larger;
+    background-color: #9f3434;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start;
+    height: 7%;
+    align-items: center;
+    position: sticky;
+    top: 0;    
+}
+
+.navbarItem {
+    position: relative;
+    color: #331d1d;  
+    transition: 0.3s;
+    padding :2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 230.4px;
+    text-align: center;
+}
+
+.navbarItem:hover{
+    background-color: #702525;
+    transition: 0.3s;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 300px;
+}
+
+.homeTitle{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f2d1b5;
+    border: solid 10px;
+    width: 25%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 3pc;
+    margin-bottom: 1pc;
+    padding-top: 1pc;
+    padding-bottom: 1pc;
+}
+
+.projectTitle{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f2d1b5;
+    border: solid 10px;
+    width: 25%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 3pc;
+    margin-bottom: 1pc;
+    padding-top: 1pc;
+    padding-bottom: 1pc;    
+}
+
+.aboutTitle{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f2d1b5;
+    border: solid 10px;
+    width: 25%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 3pc;
+    margin-bottom: 1pc;
+    padding-top: 1pc;
+    padding-bottom: 1pc;
+}
+
+.futureTitle{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f2d1b5;
+    border: solid 10px;
+    width: 25%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 3pc;
+    margin-bottom: 1pc;
+    padding-top: 1pc;
+    padding-bottom: 1pc;
+}
+
+.contactTitle{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f2d1b5;
+    border: solid 10px;
+    width: 25%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 3pc;
+    margin-bottom: 1pc;
+    padding-top: 1pc;
+    padding-bottom: 1pc;
+}
+
+.buttonTitle{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f2d1b5;
+    border: solid 10px;
+    width: 25%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 3pc;
+    margin-bottom: 1pc;
+    padding-top: 1pc;
+    padding-bottom: 1pc;
 }
