@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My journey through College</title>
+</head>
+<body>
+    <div class="mainheader">
+        <a href="index.html" id="headertitle"><h1>よこそう</h1></a>
+    </div>
+    
+    <div class="mainborder">
+
+        <div class="navbar">
+            <a class="navbarItem" href="about.html"><b>About me</b></a>
+            <a class="navbarItem" href="projects.html"><b>Projects</b></a>
+            <a class="navbarItem" href="future.html"><b>Future Plans</b></a>
+            <a class="navbarItem" href="contact.html"><b>Contact Details</b></a>
+            <a class="navbarItem" href="button.html"><b>Buttons</b></a>
+        </div>
+
+        <div>
+            <h1 class="buttonTitle">Buttons</h1>
+        </div>
+        <div>
+            <a href="https://senseichromosomesdomain.neocities.org/" target="_blank"><img src="The land of th erising sun.png"></a>
+        </div>
+        
+    </div>
+</body> 
+</html>
